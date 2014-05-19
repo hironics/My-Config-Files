@@ -72,17 +72,11 @@ set showmatch
 set notildeop
 
 syntax on
-set ruler
 set hlsearch
 set showmatch
-set shiftwidth=4
-set tabstop=4
-set expandtab
-set ai
 set selectmode=mouse
 "set autowrite
 "set nobackup
-set statusline=[%02n]\ %f\ %(\[%M%R%H]%)%=\ %4l,%02c%2V\ %P%*
  
 map [ :tabp<CR>
 map ] :tabn<CR>
